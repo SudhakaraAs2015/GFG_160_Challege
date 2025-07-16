@@ -11,3 +11,5 @@ const moveZerosToEndArray =(arr)=>{
 }
 
 console.log(moveZerosToEndArray([1,2,4,0,5,0,3]));
+//TC Big-O = O(n)
+//SC Big-O = O(1)

@@ -10,4 +10,4 @@ const reverseArray =(arr)=>{
 };
 console.log(reverseArray([2,3,1,4,5,0,5]));
 // Time Complexity Big-O = O(n)
-// Space Complexity Big-O = O(1)
+// Space Complexity Big-O = O(1);

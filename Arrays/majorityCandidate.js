@@ -20,7 +20,7 @@ function majorityElements(arr) {
         }
     }
 
-    // Step 2: Verify candidates
+    // Step 2: Verify candidates with majority.
     count1 = 0;
     count2 = 0;
     for (let num of arr) {

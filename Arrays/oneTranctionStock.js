@@ -1,5 +1,5 @@
 function oneTransaction(arr) {
-    if (arr.length === 0) return 0; // edge case
+    if (arr.length === 0) return 0;
 
     let minSoFar = arr[0];
     let profit = 0;
@@ -16,3 +16,5 @@ function oneTransaction(arr) {
 
 
 console.log(oneTransaction([10,1,7,8,13,1,15]));
+//TC =O(n)
+//SC= O(1)

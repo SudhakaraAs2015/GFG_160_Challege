@@ -1,7 +1,7 @@
 const rotateArray =(arr,k)=>{
     let n = arr.length;
     k= k%n;
-
+// Clock wise
     reverseArray(arr,0,k-1);
     reverseArray(arr,k,n-1);
     reverseArray(arr,0,n-1);

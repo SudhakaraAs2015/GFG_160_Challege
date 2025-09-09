@@ -1,5 +1,5 @@
 const smallestPositiveMissing = (arr) => {
-  arr.sort();
+  arr.sort((a, b) => a - b);
   console.log(arr);
   let res = 1;
   for (let i = 0; i < arr.length; i++) {
@@ -48,4 +48,3 @@ console.log(smallestPositiveMissing([2, -3, 4, 1, 1, 7]));
 // console.log(smallestPositiveMissing([2, -3, 4, 1, 1, 7]));
 // T.C = O(n)
 //S.C = O(n)
-

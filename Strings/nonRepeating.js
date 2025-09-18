@@ -30,3 +30,5 @@ const nonRepeating = (s) => {
 // Example usage:
 console.log(nonRepeating("geeksforgeeks")); // Output: 'f'
 // console.log(nonRepeating("racecar"));       // Output: 'e'
+//T.C = O(n)
+//S.C = O(26)==>O(1)
